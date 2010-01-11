@@ -1,6 +1,11 @@
 = zlib-crc32_combine
 
-Description goes here.
+Add Zlib's crc32_combine and adler32_combine to Ruby's Zlib
+
+Zlib.crc32_combine(crc1, crc2, len2)
+=> crc32
+Zlib.adler32_combine(adler1, adler2, len2)
+=> adler32
 
 == Note on Patches/Pull Requests
  
@@ -14,4 +19,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 W. Andrew Loe III. See LICENSE for details.
+Copyright (c) 2010 W. Andrew Loe III, Aaron Patterson. See LICENSE for details.

@@ -5,12 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "zlib-crc32_combine"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Add Zlib's crc32_combine and adler32_combine to Ruby's Zlib}
+    gem.description = %Q{Add Zlib's crc32_combine and adler32_combine to Ruby's Zlib}
     gem.email = "andrew@andrewloe.com"
     gem.homepage = "http://github.com/loe/zlib-crc32_combine"
-    gem.authors = ["W. Andrew Loe III"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.authors = ["W. Andrew Loe III", "Aaron Patterson"]
     gem.add_dependency "ffi", ">= 0.5.4"
   end
   Jeweler::GemcutterTasks.new

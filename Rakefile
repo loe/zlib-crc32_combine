@@ -11,7 +11,7 @@ begin
     gem.homepage = "http://github.com/loe/zlib-crc32_combine"
     gem.authors = ["W. Andrew Loe III"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.add_dependency "ffi", ">= 0.5.4"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

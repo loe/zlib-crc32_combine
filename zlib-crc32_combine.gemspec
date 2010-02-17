@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{zlib-crc32_combine}
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["W. Andrew Loe III", "Aaron Patterson"]
-  s.date = %q{2010-01-11}
+  s.date = %q{2010-02-16}
   s.description = %q{Add Zlib's crc32_combine and adler32_combine to Ruby's Zlib}
   s.email = %q{andrew@andrewloe.com}
   s.extra_rdoc_files = [
@@ -43,12 +43,12 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<ffi>, [">= 0.5.4"])
+      s.add_runtime_dependency(%q<ffi>, ["~> 0.6.2"])
     else
-      s.add_dependency(%q<ffi>, [">= 0.5.4"])
+      s.add_dependency(%q<ffi>, ["~> 0.6.2"])
     end
   else
-    s.add_dependency(%q<ffi>, [">= 0.5.4"])
+    s.add_dependency(%q<ffi>, ["~> 0.6.2"])
   end
 end
 

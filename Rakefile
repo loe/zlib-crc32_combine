@@ -10,7 +10,7 @@ begin
     gem.email = "andrew@andrewloe.com"
     gem.homepage = "http://github.com/loe/zlib-crc32_combine"
     gem.authors = ["W. Andrew Loe III", "Aaron Patterson"]
-    gem.add_dependency "ffi", "~> 0.6.2"
+    gem.add_dependency "ffi"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
